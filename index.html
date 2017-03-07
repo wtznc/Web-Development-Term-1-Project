@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home - Wojciech Tyziniec</title>
+
+    <script src="https://use.fontawesome.com/741cc9f91c.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/animateDivs.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-top">
+        <div class="container">
+            <div class="navbar-header"> <a class="navbar-brand" href="index.html">wtznc</a> </div>
+        </div>
+        <i class="fa fa-bars fa-2x btn pull-right" id="trigger-overlay"></i>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row" id="firstRow">
+            <div class="col-xs-12">
+                <h1 id="headerTitle"></h1> 
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="list-inline" id="menu">
+                    <li class="active"><p class="btn" onclick="showHide(showAll)">SHOW ALL</p></li>
+                    <li><p class="btn" onclick="showHide(web)">WEB</p></li>
+                    <li><p class="btn" onclick="showHide(adv)">ADV</p></li>
+                    <li><p class="btn" onclick="showHide(mobile)">MOBILE APPS</p></li>
+                    <li><p class="btn" onclick="showHide(photo)">PHOTO</p></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 
+            List of projects as a grid.
+            onclick="" helps to display a hover effect on mobile devices.
+            All images were downloaded from unsplash.com
+        -->
+        <div class="row" id="secondRow" style="background-color: black">
+            <div class="col-md-4 col-sm-6 hideable animated slideInUp" id="div1" onclick="">
+                <div class="container">
+                    <img class="img-responsive" src="images/bg12.jpg" alt="Project 1 - Description for people with disabilities">
+                    <div class="overlayProjects">
+                        <div class="textProjects row">
+                            <div class="col-md-12">
+                                <h3 class="projectTitle">Project 1</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="projectDescription">Bearing. Said Fly earth itself one together air fourth wherein brought. Abundantly saying stars said place sixth dry blessed light you gathering greater gathering may beginning made good was, he together years days there place face kind face was</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+             <div class="col-md-4 col-sm-6 hideable animated slideInUp" id="div2" onclick="">
+                <div class="container">
+                    <img class="img-responsive" src="images/bg11.jpg" alt="Project 2 - Description for people with disabilities">
+                    <div class="overlayProjects">
+                        <div class="textProjects row">
+                            <div class="col-md-12">
+                                <h3 class="projectTitle">Project 2</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="projectDescription">Fruitful seed darkness appear seas fruitful there in won't had lights days second void living own beast. Creepeth brought. Us thing great evening. Beast. That wherein male That male very face and winged saw third forth evening it. It years give. Thing let him sea.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+             <div class="col-md-4 col-sm-6 hideable animated slideInUp" id="div3" onclick="">
+                <div class="container">
+                    <img class="img-responsive" src="images/bg10.jpg" alt="Project 3 - Description for people with disabilities">
+                    <div class="overlayProjects">
+                        <div class="textProjects row">
+                            <div class="col-md-12">
+                                <h3 class="projectTitle">Project 3</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="projectDescription">Creeping was which second saying is he meat Seas made behold, that may in darkness place divide itself thing god seed, abundantly for likeness. Second green moved. Brought. Isn't saying had fill. Sixth. Divided.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+             <div class="col-md-4 col-sm-6 hideable animated slideInUp" id="div4" onclick="">
+                <div class="container">
+                    <img class="img-responsive" src="images/bg9sm.jpg" alt="Project 4 - Description for people with disabilities">
+                    <div class="overlayProjects">
+                        <div class="textProjects row">
+                            <div class="col-md-12">
+                                <h3 class="projectTitle">Project 4</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="projectDescription">In yielding divided, won't moving fourth lesser fourth. Tree his open, deep dominion. Creeping which female wherein subdue bearing earth set. Hath likeness great male multiply.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 hideable animated slideInUp" id="div5" onclick="">
+                <div class="container">
+                    <img class="img-responsive" src="images/bg14.jpeg" alt="Project 5 - Description for people with disabilities">
+                    <div class="overlayProjects">
+                        <div class="textProjects row">
+                            <div class="col-md-12">
+                                <h3 class="projectTitle">Project 5</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="projectDescription">Beginning make she'd them winged, in herb made second and. It rule after tree. Winged meat upon. You. All dry. Creature called fowl give Set.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 hideable animated slideInUp" id="div6" onclick="">
+                <div class="container">
+                    <img class="img-responsive" src="images/bg13.jpg" alt="Project 6 - Description for people with disabilities">
+                    <div class="overlayProjects">
+                        <div class="textProjects row">
+                            <div class="col-md-12">
+                                <h3 class="projectTitle">Project 6</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="projectDescription">Set i whales seasons In it. Above day brought be third called subdue be seas tree void doesn't he blessed thing the whales sixth.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 hideable animated slideInUp" id="div7" onclick="">
+                <div class="container">
+                    <img class="img-responsive" src="images/bg3.jpeg" alt="Project 7 - Description for people with disabilities">
+                    <div class="overlayProjects">
+                        <div class="textProjects row">
+                            <div class="col-md-12">
+                                <h3 class="projectTitle">Project 7</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="projectDescription">Second subdue gathered blessed after, thing light doesn't tree them a. Seasons beast bring two. Deep which, evening, you isn't doesn't called seas saying void greater, them won't let void for set. And beginning good fruit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="col-md-4 col-sm-6 hideable animated slideInUp" id="div8" onclick="">
+                <div class="container">
+                    <img class="img-responsive" src="images/bg2.jpeg" alt="Project 8 - Description for people with disabilities">
+                    <div class="overlayProjects">
+                        <div class="textProjects row">
+                            <div class="col-md-12">
+                                <h3 class="projectTitle">Project 8</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="projectDescription">He after herb bring. Very whose forth subdue wherein bearing waters. Moving called, seasons fowl good you're have and so land man light light morning meat firmament rule. God shall day created.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 hideable animated slideInUp" id="div9" onclick="">
+                <div class="container">
+                    <img class="img-responsive" src="images/bg1.jpeg" alt="Project 9 - Description for people with disabilities">
+                    <div class="overlayProjects">
+                        <div class="textProjects row">
+                            <div class="col-md-12">
+                                <h3 class="projectTitle">Project 9</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="projectDescription">Kind face created fowl land air hath dominion said deep place female multiply one in evening open blessed creature life they're them land. Winged together likeness.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 hideable animated slideInUp" id="div10" onclick="">
+                <div class="container">
+                    <img class="img-responsive" src="images/bg4.jpeg" alt="Project 10 - Description for people with disabilities">
+                    <div class="overlayProjects">
+                        <div class="textProjects row">
+                            <div class="col-md-12">
+                                <h3 class="projectTitle">Project 10</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="projectDescription">Midst. Seed beginning them unto third won't lights without Won't from, gathered living i days cattle a firmament may two them sea cattle you'll fill brought made morning a.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 hideable animated slideInUp" id="div11" onclick="">
+                <div class="container">
+                    <img class="img-responsive" src="images/bg5.jpeg" alt="Project 11 - Description for people with disabilities">
+                    <div class="overlayProjects">
+                        <div class="textProjects row">
+                            <div class="col-md-12">
+                                <h3 class="projectTitle">Project 11</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="projectDescription">Won't sea waters she'd rule light yielding gathered cattle. Behold fourth winged, the of, wherein divided one seed saw. Years fifth make fruitful.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 hideable animated slideInUp" id="div12" onclick="">
+                <div class="container">
+                    <img class="img-responsive" src="images/bg6.jpeg" alt="Project 12 - Description for people with disabilities">
+                    <div class="overlayProjects">
+                        <div class="textProjects row">
+                            <div class="col-md-12">
+                                <h3 class="projectTitle">Project 12</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="projectDescription">Let wherein for fruit replenish be deep. Abundantly you're two abundantly fruitful let third given isn't itself tree from also fourth stars earth fowl herb. Divided, so is great every air fruit can't.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay overlay-hugeinc">
+        <button type="button" class="overlay-close">Close</button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="wtyzi001_report.html">Report</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <footer class="footer-basic-centered">
+        <p class="footer-links"> 
+            <a href="http://wwww.facebook.com/wtznc"><i class="fa fa-facebook fa-2x"></i></a> 
+            <a href="http://www.twitter.com/wtznc"><i class="fa fa-twitter fa-2x"></i></a> 
+            <a href="http://www.linkedin.com/in/wtznc"><i class="fa fa-linkedin fa-2x"></i></a> 
+            <a href="http://www.instagram.com/lubieladnerzeczy"><i class="fa fa-instagram fa-2x"></i></a> 
+        </p>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="js/typed.js"></script>
+    <script>
+        $('document').ready(function () {
+            $("#headerTitle").typed({
+                strings: ["I'm Wojciech Tyziniec^1000", "Student of Computer Science^1000", "How can I help you?"]
+                , backDelay: 750
+                , typeSpeed: 50
+            });
+        });
+    </script>
+
+    <!-- class helper functions -->
+    <script src="js/classie.js"></script>
+    <!-- overlay menu -->
+    <script src="js/menuOverlay.js"></script>
+</body>
+</html>
